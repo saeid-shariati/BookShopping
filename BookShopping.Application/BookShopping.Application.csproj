@@ -16,4 +16,8 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="9.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookShopping.Domain\BookShopping.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
