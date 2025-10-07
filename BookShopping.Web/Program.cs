@@ -40,7 +40,7 @@ app.MapControllerRoute(name: "areas",
 
 app.MapControllerRoute(name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets());
+    .WithStaticAssets();
 
 
 
